@@ -3,7 +3,7 @@ import mysql.connector
 from heapq import merge
 
 
-cnx = mysql.connector.connect(user='root',password='gnu30121308', database='tramo')
+cnx = mysql.connector.connect(user='root',password='', database='tramo')
 c1 = cnx.cursor()
 c2 = cnx.cursor()
 
